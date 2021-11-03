@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         newIntent.putExtra(  "area",  "Producto");
         //Inicializacion de la nueva activity
         startActivity(newIntent);
-
     }
 
     public void goToActivityCategoria(View view){
