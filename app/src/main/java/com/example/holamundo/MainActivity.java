@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void goToActivityProducto(View view){
         Intent newIntent = new Intent(this, ProductoActivity.class);
         //Paso de parametros
-        newIntent.putExtra( "saludo",  "Hola");
+        newIntent.putExtra( "saludo",  "Hola a Todos!!!");
         newIntent.putExtra(  "area",  "Producto");
         //Inicializacion de la nueva activity
         startActivity(newIntent);
